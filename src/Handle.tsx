@@ -118,8 +118,8 @@ export default class Handle extends React.Component<HandleProps> {
           transform: `translateX(${reverse ? '+' : '-'}50%)`,
         };
     const elStyle = {
-      ...style,
       ...positionStyle,
+      ...style,
     };
 
     let mergedTabIndex = tabIndex || 0;
